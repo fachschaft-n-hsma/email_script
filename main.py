@@ -1,21 +1,20 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import email
 import smtplib
 import ssl
 import time
-import config
 import os
 import csv
 
-from email import encoders
-from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
+import config
+
 
 def write_mail(body, recipient, times):
+    "writes the mail"
     subject = config.SUBJECT
     sender_email = config.SENDER_EMAIL
     receiver_email = recipient
@@ -64,20 +63,25 @@ def write_mail(body, recipient, times):
             server.sendmail(sender_email, receiver_email, text)
 
 
-def parse_letter(receiver_record, letter : str) -> str:
-    for key,val in receiver_record.items():
-        letter = letter.replace(f"_{key}_",val)
-    
+def parse_letter(receiver_record, letter: str) -> str:
+    "parses one singular letter based on the fields in receiver record"
+    for key, val in receiver_record.items():
+        letter = letter.replace(f"_{key}_", val)
+
     return letter
-    
+
+
 def parse_letters(receiver_dict, letter):
-    letters =[]
+    "parses many letters based on the fields of receiver file"
+    letters = []
     for record in receiver_dict:
         result_letter = parse_letter(record, letter)
         letters.append((result_letter, record["recep-email"]))
     return letters
 
+
 def main():
+    "main fun"
     # with open(config.RECEIPIENTS_MAIL_LIST_FILENAME, 'r', encoding="utf-8") as rec_file:
     #     lines = [line.rstrip() for line in rec_file]
     # list_of_recipients = list(lines)
@@ -90,9 +94,10 @@ def main():
     with open(config.RECEIVER_MERGE, "r", encoding="utf-8") as receiver_file:
         receiver_dict = csv.DictReader(receiver_file)
         recep_pairs = parse_letters(receiver_dict, letter)
-        
+
     for tup in recep_pairs:
         write_mail(tup[0], tup[1], 1)
+
 
 if __name__ == '__main__':
     main()

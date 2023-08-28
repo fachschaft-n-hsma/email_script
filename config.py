@@ -1,7 +1,7 @@
+"config of project"
+
 SENDER_EMAIL="m.cerwenetz@hs-mannheim.de"
-SUBJECT="Hallo"
-EMAIL_BODY="Test"
+SUBJECT="Subject"
 ATTACHMENT_FILENAME=""
-RECEIPIENTS_MAIL_LIST_FILENAME="rec_filename.txt"
 LETTER_FILE="anschreiben_example.txt"
 RECEIVER_MERGE="rec_example.csv"
