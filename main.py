@@ -95,9 +95,12 @@ def main():
         receiver_dict = csv.DictReader(receiver_file)
         recep_pairs = parse_letters(receiver_dict, letter)
 
-    for tup in recep_pairs:
+    print("sending emails...")
+    for cnt, tup in enumerate(recep_pairs):
         write_mail(tup[0], tup[1], 1)
+        print("[",str(cnt+1),"/",len(recep_pairs),"]")
 
+    print("emails successfully sent")
 
 if __name__ == '__main__':
     main()
