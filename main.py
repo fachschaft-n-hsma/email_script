@@ -60,8 +60,10 @@ def write_mail(body, recipient, times):
         server.login(login, password)
         for i in range(times):
             time.sleep(10)
-            server.sendmail(sender_email, receiver_email, text)
-
+            try:
+                server.sendmail(sender_email, receiver_email, text)
+            except:
+                print("an error occured sending email to:\n    ",receiver_email)
 
 def parse_letter(receiver_record, letter: str) -> str:
     "parses one singular letter based on the fields in receiver record"
