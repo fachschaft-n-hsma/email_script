@@ -1,50 +1,72 @@
 vorname,nachname,anrede,recep-email
-Alten,kontakt@alten.com
-Claas,infoclaas@claas.com
-DB,reiseportal@bahn.de
-dm,ServiceCenter@dm.de
-Ferchau,info@­ferchau.com
-Finbridge,office@finbridge.de
-Fortnite,questions-DE@support.epicgames.com
-Jack Wolfskin,eshop@jack-wolfskin.de
-Kosima,info@kosima-mannheim.de
-Schneider,info@schneiderpen.de
-Snocks,support@snocks.com
-KB-Socken,info@kbsocken.de
-Springer,customerservice@springernature.com
-Stabilo,info@stabilo.com
-Stadt Mannheim,stadtverwaltung@mannheim.de
-RNV,info@rnv-online.de
-ARTE,telespectateurs@arte.tv
-Bauhaus,service@bauhaus.info
-Cineplex,service@diekinomacher.de
-Durex,ConsumerHealth_DE@reckitt.com
-Eis.de,info@eis.de
-Ebenwald,mannheim@elbenwald.de
-Elotrans,info@stada.de
-Partyfly,kontakt@PARTYFLY.de
-Tempo,kundenservice@essity.com
-Länd,kontakt@thelaend.de
-Aldi,kontakt@kundenservice.aldi-sued.de
-Bembel,info@bembel-with-care.de
-Coca Cola,info@coca-cola.de
-Eichbaum,nadine.oswald@eichbaum.de
-EFAG,info@efag.com
-Funny Frisch,info@intersnack.de
-Green Force,service@greenforce.com
-HARIBO,info@haribo.com
-Hela,info@hela.eu
-Katjes,info@katjes.de
-Knoppers,info@de.storck.com
-Lorenz,snacks.info-line@LBSnacks.com
-Mio,info@miomio.com
-Penny,kontakt@penny.de
-Partyfly,kontakt@PARTYFLY.de
-Red Bull,info@redbull.com
-Rewe,kundenmanagement@rewe.de
-Ritter Sport,info@ritter-sport.de
-Sierra Tequila,info@sierratequila.com
-Y Food,info@yfood.eu
-AZDelivery,info@az-delivery.com
-DigiKey,eu.support@digikey.com
-Reichelt,info@reichelt.de
+Patrick,Heinzler,Alten,kontakt@alten.com
+Patrick,Heinzler,Claas,infoclaas@claas.com
+Patrick,Heinzler,DB,reiseportal@bahn.de
+Patrick,Heinzler,dm,ServiceCenter@dm.de
+Patrick,Heinzler,Ferchau,info@­ferchau.com
+Patrick,Heinzler,Finbridge,office@finbridge.de
+Patrick,Heinzler,Fortnite,questions-DE@support.epicgames.com
+Patrick,Heinzler,Jack Wolfskin,eshop@jack-wolfskin.de
+Patrick,Heinzler,Kosima,info@kosima-mannheim.de
+Patrick,Heinzler,Schneider,info@schneiderpen.de
+Patrick,Heinzler,Snocks,support@snocks.com
+Patrick,Heinzler,KB-Socken,info@kbsocken.de
+Patrick,Heinzler,Springer,customerservice@springernature.com
+Patrick,Heinzler,Stabilo,info@stabilo.com
+Patrick,Heinzler,Stadt Mannheim,stadtverwaltung@mannheim.de
+Patrick,Heinzler,RNV,info@rnv-online.de
+Patrick,Heinzler,ARTE,telespectateurs@arte.tv
+Patrick,Heinzler,Bauhaus,service@bauhaus.info
+Patrick,Heinzler,Cineplex,service@diekinomacher.de
+Patrick,Heinzler,Durex,ConsumerHealth_DE@reckitt.com
+Patrick,Heinzler,Eis.de,info@eis.de
+Patrick,Heinzler,Ebenwald,mannheim@elbenwald.de
+Patrick,Heinzler,Elotrans,info@stada.de
+Patrick,Heinzler,Partyfly,kontakt@PARTYFLY.de
+Patrick,Heinzler,Tempo,kundenservice@essity.com
+Patrick,Heinzler,Länd,kontakt@thelaend.de
+Patrick,Heinzler,Aldi,kontakt@kundenservice.aldi-sued.de
+Patrick,Heinzler,Bembel,info@bembel-with-care.de
+Patrick,Heinzler,Coca Cola,info@coca-cola.de
+Patrick,Heinzler,Eichbaum,nadine.oswald@eichbaum.de
+Patrick,Heinzler,EFAG,info@efag.com
+Patrick,Heinzler,Funny Frisch,info@intersnack.de
+Patrick,Heinzler,Green Force,service@greenforce.com
+Patrick,Heinzler,HARIBO,info@haribo.com
+Patrick,Heinzler,Hela,info@hela.eu
+Patrick,Heinzler,Katjes,info@katjes.de
+Patrick,Heinzler,Knoppers,info@de.storck.com
+Patrick,Heinzler,Lorenz,snacks.info-line@LBSnacks.com
+Patrick,Heinzler,Mio,info@miomio.com
+Patrick,Heinzler,Penny,kontakt@penny.de
+Patrick,Heinzler,Partyfly,kontakt@PARTYFLY.de
+Patrick,Heinzler,Red Bull,info@redbull.com
+Patrick,Heinzler,Rewe,kundenmanagement@rewe.de
+Patrick,Heinzler,Ritter Sport,info@ritter-sport.de
+Patrick,Heinzler,Sierra Tequila,info@sierratequila.com
+Patrick,Heinzler,Y Food,info@yfood.eu
+Patrick,Heinzler,AZDelivery,info@az-delivery.com
+Patrick,Heinzler,DigiKey,eu.support@digikey.com
+Patrick,Heinzler,Reichelt,info@reichelt.de
+Patrick,Heinzler,ABB,contact.center@de.abb.com
+Patrick,Heinzler,Adafruit,support@adafruit.com
+Patrick,Heinzler,Apple,contactus.de@euro.apple.com
+Patrick,Heinzler,Arduino,support@arduino.cc
+Patrick,Heinzler,Bosch,kontakt@bosch.de
+Patrick,Heinzler,Bose,sales_support_de@bose.com
+Patrick,Heinzler,CCC,mail@ccc.de
+Patrick,Heinzler,Corpuls,info@corpuls.com
+Patrick,Heinzler,Daimer Trucks,contact@daimlertruck.com
+Patrick,Heinzler,Dell,DE.CustomerSupport@dell.com
+Patrick,Heinzler,Eurocircuits,Klaus.Rockstroh@eurocircuits.com
+Patrick,Heinzler,Infinion,Support@infineon.com
+Patrick,Heinzler,Keysight,contactcenter_germany@keysight.com
+Patrick,Heinzler,Makita,info@makita.de
+Patrick,Heinzler,Pepperl und Fuchs,info@de.pepperl-fuchs.com
+Patrick,Heinzler,Rohde und Schwarz,info@rohde-schwarz.com
+Patrick,Heinzler,SAP,info.germany@sap.com
+Patrick,Heinzler,Sennheiser,contact@sennheiser.com
+Patrick,Heinzler,Spax,info@spax.com
+Patrick,Heinzler,Teufel,impressum@teufel.de
+Patrick,Heinzler,Vector,info@vector.com
+Patrick,Heinzler,Wago,info.de@wago.com
